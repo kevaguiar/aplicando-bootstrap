@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
+header {
+    background-color: rgb(42, 54, 165);
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    height: 100px;
+}
+
+.logo {
+padding: 20px;
+}
+
+.cssCarrousel {
+margin: 2%;
+justify-content: center;
+}
+
+.cssFooter {
+    background-color: rgb(42, 54, 165);
+    height: 100px;
+}
+
+h6 {
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+
+
+.card-img {
+    padding: 10px;
+}
+
+.card-body {
+    margin: 10px;
+    padding: 10px;
+}
+
+.textSobreMi {
+padding: 100px;
+padding-top:20px;
+
+}
+
+.containerMail {
+    height: 500px;
+}
+
+.mail {
+
+    font-size: 100px;
+    align-self: center;
+
+}
+
+.colorTexto {
+    color: rgb(42, 54, 165);
+}
+
+@media (max-width: 1200px) {
+    .mail {
+        font-size:80px;
+    }
+
+@media (max-width: 1000px) {    
+    .mail {
+        font-size:50px;
+    }
