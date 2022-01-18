@@ -17,6 +17,7 @@ header {
 
 }
 
+
 nav {
     height: 100px;
 }
@@ -25,6 +26,9 @@ nav {
 padding: 20px;
 }
 
+main {
+    height: 200px;
+}
 .cssCarrousel {
 margin: 2%;
 justify-content: center;
@@ -76,8 +80,10 @@ padding-top:20px;
     .mail {
         font-size:80px;
     }
+}
 
 @media (max-width: 1000px) {    
     .mail {
         font-size:50px;
     }
+}
