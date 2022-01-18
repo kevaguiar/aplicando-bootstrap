@@ -86,3 +86,10 @@ padding-top:20px;
         font-size:50px;
     }
 }
+
+
+@media (max-width: 589px) {    
+    .mail {
+        font-size:25px;
+    }
+}
